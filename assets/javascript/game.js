@@ -44,16 +44,20 @@ $(document).ready(function() {
 		pointsToGoal = pointsToGoal + crystal4
 		$("#points_to_goal").text(pointsToGoal);
 	});
+
+	// If statement to actually run game, currently not working :(
 	
-	if(pointsToGoal === goal) {
+	if(pointsToGoal = goal) {
 		wins = wins + 1;
 		initializeGame();
 	}else if(pointsToGoal > goal) {
 		losses = losses + 1;
 		initializeGame();
-	};
-		// Start the game with random variables
-	initializeGame();
+	}else{
+		initializeGame();
+	}
+	;
+
 
 
 
