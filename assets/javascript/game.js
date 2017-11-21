@@ -15,7 +15,7 @@ $(document).ready(function() {
 	function initializeGame() {
 
 		// Randomize variables
-		goal = Math.floor((Math.random() * 120) + 1);
+		goal = Math.floor((Math.random() * 101) + 19);
 		crystal1 = Math.floor((Math.random() * 12) + 1);
 		crystal2 = Math.floor((Math.random() * 12) + 1);
 		crystal3 = Math.floor((Math.random() * 12) + 1);
